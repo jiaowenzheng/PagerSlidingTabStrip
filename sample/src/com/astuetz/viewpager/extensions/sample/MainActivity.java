@@ -175,8 +175,8 @@ public class MainActivity extends FragmentActivity {
 
 	public class MyPagerAdapter extends FragmentPagerAdapter {
 
-		private final String[] TITLES = { "Categories", "Home", "Top Paid", "Top Free", "Top Grossing", "Top New Paid",
-				"Top New Free", "Trending" };
+//		private final String[] TITLES = { "Categories", "Home", "Top Paid" };
+		private final String[] TITLES = { "这是一个非常", "不好说", "测试","这是一个非常", "不好说", "测试" };
 
 		public MyPagerAdapter(FragmentManager fm) {
 			super(fm);
