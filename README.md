@@ -6,7 +6,7 @@ Android Support Library.
 Try out the sample application [on the Play Store](https://play.google.com/store/apps/details?id=com.astuetz.viewpager.extensions.sample).
 
 ![PagerSlidingTabStrip Sample Screenshot 1](https://lh3.ggpht.com/PXS7EmHhQZdT1Oa379iy91HX3ByWAQnFZAthMAFa_QHAOHNClEaXU5nxDEAj1F2eqbk)![PagerSlidingTabStrip Sample Screenshot 2](https://lh3.ggpht.com/oaksDoUcQlGB4j7VEkBCOjrvSzjtzVHHcKq8pAnGVfm6oxkcJg_w1QS4tyP3fLcqrwcX)
-
+<img src="https://github.com/jiaowenzheng/PagerSlidingTabStrip/raw/master/new.png" width="300" height="500"/>
 # Usage
 
 *For a working implementation of this project see the `sample/` folder.*
@@ -58,6 +58,9 @@ your brand:
  * `pstsTabBackground` Background drawable of each tab, should be a StateListDrawable
  * `pstsShouldExpand` If set to true, each tab is given the same weight, default false
  * `pstsTextAllCaps` If true, all tab titles will be upper case, default true
+ * `pstsIndicatorLineAlignText` If true, tab indicator line and tab text same width, default false（如果为true,则tab下面的导航线与文本的宽度一致）
+ * `selectedTabTextColor` selector current tab text color change(选中当前tab的文字颜色发生变化)
+
 
 *All attributes have their respective getters and setters to change them at runtime*
 
